@@ -1,0 +1,160 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.icons{
+    margin-left:529px;
+    margin-top: 60px;
+   
+    
+}
+
+.product{
+      margin-left: 90px;
+      margin-top: 34px;
+}
+nav a{
+   text-decoration: none;
+   font-size: 19px;
+   color: black;
+   margin-right: 13px;
+       
+
+}
+.influencer{
+    display: flex;
+    
+}
+.journey{
+    height: 20px;
+    margin-left: 87px;
+}
+.prebook{
+    text-decoration: none;
+    border: 5px solid;
+    border-radius: 30px;
+    padding: 7px; 
+    color: rgb(249, 253, 8);
+    background-color: rgb(220, 93, 20);
+}
+.influencer-2{
+    display: flex;
+
+}
+.camera{
+    height: 350px;
+    width: 390px;
+    margin-left: 234px;
+}
+
+hr{
+    
+        border : 0;
+        height: 1px; 
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0)); 
+      
+}
+      
+.img-all{
+    justify-content: center;
+    margin-left: 280px;
+    
+}
+.link-1{
+    margin-left:48px;
+    width:53px;
+    height: 45px;
+}
+.popular{
+    text-align: center;
+}
+.filled{
+    color: orange;
+}
+.half-empty{
+    color:lightgray;
+}
+
+.fa-star{
+    font-size:10px;
+}
+.fonts{
+    
+    
+}
+
+.fonts-2{
+     
+    color:rgb(139, 145, 145);
+    
+}
+.carts{
+  
+    padding: 20px;
+    box-shadow:
+       inset 0 -3em 3em rgba(7, 5, 5, 0.1),
+             0 0  0 2px rgb(218, 208, 208),
+             0.3em 0.3em 1em rgba(0,0,0,0.3);
+             width: 299px;
+             height: 504px;
+             margin-bottom: 29px;
+             margin-left: 40px;
+            border-radius: 21px;
+
+
+
+
+}
+.collections{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.arrow{
+    color: brown;
+    text-align: right;
+}
+.collection-1{
+    display: flex;
+}
+
+
+.pic-2 img {
+    height:200px ;
+    width:260px ;
+} 
+
+.products{
+    margin-left:299px;
+}
+.gear{
+    width:317px;
+    height: 242px;
+    margin-left: 60px;
+}
+footer {
+    text-align: center;
+    padding: 5px;
+    background-color: rgb(12, 2, 46);
+    color: white;
+  }
+  .extra-section{
+    width: 295px;
+    height: 329px;
+    margin-left: 124px;
+              
+  }
+ 
+
+  @media only screen and (max-width:688px) {
+      
+
+    .collections{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-content: center;
+        margin-left: 72px;
+    }
+
+
+
+      }
